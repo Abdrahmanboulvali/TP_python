@@ -69,3 +69,9 @@ print(catalogue)
 #Q3
 del catalogue["P04"]
 print(catalogue)
+
+#Q4
+print(f"{'Référence':<10} | {'Nom':<20} | {'Catégorie':<15} | {'Prix (MRU)'}")
+print("-" * 60)
+for code, p in catalogue.items():
+    print(f"{code:<10} | {p['nom']:<20} | {p['categorie']:<15} | {p['prix']}")
