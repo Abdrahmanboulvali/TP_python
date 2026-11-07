@@ -67,3 +67,5 @@ for produit in catalogue.values():
 print(catalogue)
 
 #Q3
+del catalogue["P04"]
+print(catalogue)
